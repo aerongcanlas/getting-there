@@ -1,8 +1,7 @@
-import React, { FC, ChangeEvent, useState } from "react"
-import "./App.css"
-import { ITask } from "./Interfaces"
-import TodoTask from "./components/TodoTask"
-import CompletedTask from "./components/CompletedTask"
+import { FC, useState, ChangeEvent } from "react";
+import CompletedTask from "./components/CompletedTask";
+import TodoTask from "./components/TodoTask";
+import { ITask } from "./Interfaces";
 
 const App: FC = () => {
   const [task, setTask] = useState<string>("");
