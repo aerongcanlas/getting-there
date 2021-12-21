@@ -1,4 +1,5 @@
 import { FC, useState, ChangeEvent } from "react";
+import './App.css'
 import CompletedTask from "./components/CompletedTask";
 import TodoTask from "./components/TodoTask";
 import { ITask } from "./Interfaces";
