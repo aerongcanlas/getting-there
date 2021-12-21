@@ -3,6 +3,7 @@ import CompletedTask from "./components/CompletedTask";
 import TodoTask from "./components/TodoTask";
 import { ITask } from "./Interfaces";
 
+// comment test
 const App: FC = () => {
   const [task, setTask] = useState<string>("");
   const [deadline, setDeadline] = useState<number>(1);
